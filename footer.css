@@ -1,0 +1,55 @@
+.footer-container__content {
+    margin-top: 10px;
+    border-top: 1px solid #2f3138;
+}
+
+.footer {
+    height: 146px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.socials {
+    position: absolute;
+    top: 40px;
+    right: 300px;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__item--icon--telegram .socials__link {
+    background-image: url("../../img/telegram.jpg");
+}
+
+.socials__item--icon--vk .socials__link {
+    background-image: url("../../img/vk.jpg");
+}
+
+.socials__item--icon--fb .socials__link {
+    background-image: url("../../img/f.jpg");
+}
+
+.socials__item--icon--insta .socials__link {
+    background-image: url("../../air-asia/img/in.jpg");
+}
+
+.contacts__desc {
+    color: #9A9A9A;
+    font-size: 11px;
+}
